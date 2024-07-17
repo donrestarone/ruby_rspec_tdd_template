@@ -11,9 +11,15 @@
 To run a specific test, indicate the line number
 
 ``` bash
-rspec spec spec/memory_key_value_store_spec.rb:10
+rspec examples/memory_key_value_store/spec/memory_key_value_store_spec.rb:10
+```
+to run a specific file, point to the file
+``` bash
+rspec spec/poro_spec.rb
 ```
 
+to run all tests under /spec
+
 ``` bash
-rspec spec/poro_spec.rb:6
+rspec spec
 ```
